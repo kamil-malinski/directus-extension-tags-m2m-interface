@@ -422,6 +422,7 @@ async function onInputKeyDown(event: KeyboardEvent) {
 		} else if (createAllowed.value) {
 			stageLocalInput();
 		}
+		localInput.value = '';
 		return;
 	}
 
